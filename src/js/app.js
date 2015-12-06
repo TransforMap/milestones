@@ -3,7 +3,7 @@
 (function ($, initials, _, githubApi) {
   'use strict';
 
-  var repoUrl = 'https://github.com/gr2m/milestones';
+  var repoUrl = 'https://github.com/TransforMap/milestones';
   var repoUsername = repoUrl.match(/github.com\/([^\/]+)/).pop();
   var repoName = repoUrl.match(/github.com\/[^\/]+\/([^\/]+)/).pop();
   var rowTemplate = '';
